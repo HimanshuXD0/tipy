@@ -113,5 +113,5 @@ class _HomeState extends State<Home> {
 
   int calculate() {
     int principle = int.parse(principlecontroler.text);
-    return ((principle * tip) / 100) as int;
+    return (principle * tip) ~/ 100;
   }}

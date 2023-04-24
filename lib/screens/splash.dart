@@ -1,7 +1,8 @@
 import 'package:animated_splash_screen/animated_splash_screen.dart';
 import 'package:flutter/material.dart';
+import 'package:tipy/screens/login.dart';
 
-import 'homescreen.dart';
+
 
 class Mysplash extends StatelessWidget {
   const Mysplash({super.key});
@@ -10,7 +11,7 @@ class Mysplash extends StatelessWidget {
   Widget build(BuildContext context) {
     return  AnimatedSplashScreen(
       splash: Image.asset("assets/images/Calculator.png"),
-      nextScreen: Home(),
+      nextScreen: LoginPageNew(),
       splashTransition: SplashTransition.fadeTransition,
       splashIconSize: 250,
       backgroundColor: Colors.white,
